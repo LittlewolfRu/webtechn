@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+sudo touch /home/box/web/etc/nginx.conf
 ln -fs /home/box/web/etc/nginx.conf  /etc/nginx/sites-enabled/default
 /etc/init.d/nginx restart
 
